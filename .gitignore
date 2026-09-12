@@ -1,0 +1,78 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+.venv/
+venv/
+env/
+ENV/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment files and local configuration
+.env
+.env.*
+!.env.example
+*.local
+
+# Logs and runtime files
+*.log
+logs/
+*.pid
+*.seed
+
+# ML models, generated media, and local data
+*.onnx
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.tflite
+*.npy
+*.npz
+data/
+outputs/
+artifacts/
+captures/
+
+# Android / Gradle
+.gradle/
+**/build/
+local.properties
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+apk_extracted/
+
+# IDEs and editors
+.idea/
+*.iml
+.vscode/
+*.code-workspace
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*~
